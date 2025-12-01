@@ -1,13 +1,14 @@
 import Page from "../components/Page";
 
-export default function Pagina() {
+export default function Home() {
     return (
         <div>
             <Page
-                title="Pagina"
-                subtitle="Descrição da págona"
-                content={<p>Sou um conteudo</p>}
-            />
+                title="Página"
+                subtitle="Descrição do Página"
+            >
+                <p>Sou uma Página</p>
+            </Page>
         </div>
     );
 }
